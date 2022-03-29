@@ -1,16 +1,80 @@
   body {
-    background-color: #FFBC80;
+    background-color: #97DBAE;
+    margin: 0;
   }
+
   hr {
     border-style: dotted none none none;
-    height: 0px;
+    height: 0;
     border-color: grey;
     border-width: 10px;
     width: 50%;
   }
   h1 {
-    color: #FC4F4F;
+    color: black;
+    font-family: sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+
+
   }
   h3 {
-    color: #FC4F4F;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+
+a {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  word-wrap: normal;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+.header {
+  background-image: url("../images/sage.JPG");
+  background-size: 500px;
+  height: 150px;
+  padding: 20px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #F4BBBB;
+  text-align: center;
+}
+
+.recipe {
+  background-color: #F1E1A6;
+  min-height: 150px;
+  width: 75%;
+  text-align: left;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+}
+
+.recipe-link {
+  display: inline-block;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.recipe-img {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 10px;
+
   }
